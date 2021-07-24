@@ -1,0 +1,25 @@
+// Connect green LED to pin 13
+// Connect yellow LED to pin 12
+// Connect red LED to pin 11
+
+void setup()  { 
+  // declare pin 11,12,13 to be outputs:
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+} 
+
+void loop(){{
+   digitalWrite(13, HIGH); // Turns LED on pin 13 on
+ delay(2500); // LED on pin 13 remains on for 5 seconds
+   digitalWrite(13, LOW); //  Turns LED on pin 13 off
+ delay(0);}
+   digitalWrite(12, HIGH); // Turns LED on pin 12 on
+ delay(2500); // LED on pin 12 remains on for 5 seconds
+   digitalWrite(12, LOW); //  Turns LED on pin 12 off
+ delay(0);
+   digitalWrite(11, HIGH); // Turns LED on pin 11 on
+ delay(2500); // LED on pin 11 remains on for 5 seconds    
+   digitalWrite(11, LOW); //  Turns LED on pin 11 off
+ delay(0);
+}
